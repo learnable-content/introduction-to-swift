@@ -56,7 +56,7 @@
         <!--Add-->
         <scene sceneID="LEu-rg-yqB">
             <objects>
-                <viewController id="urD-ti-Xgi" customClass="SecondViewController" customModule="ActivityLogger" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="urD-ti-Xgi" customClass="AddViewController" customModule="ActivityLogger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zw9-Pg-OLO"/>
                         <viewControllerLayoutGuide type="bottom" id="nta-C6-M6k"/>
@@ -81,6 +81,9 @@
                                 <state key="normal" title="Save Activity">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="addActivity_Click:" destination="urD-ti-Xgi" eventType="touchUpInside" id="St3-In-IqT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -88,6 +91,9 @@
                     <tabBarItem key="tabBarItem" title="Add" id="eWj-5c-qkp"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="activityLabel" destination="JGv-uv-agn" id="zaC-4h-APN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4hQ-eE-Elk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -119,7 +125,7 @@
                     <tabBarItem key="tabBarItem" title="Performance" image="second" id="cPa-gy-q4n"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="tableView" destination="T0e-FT-VxY" id="HUd-Tl-xAH"/>
+                        <outlet property="tableView" destination="T0e-FT-VxY" id="P7G-8Z-6ye"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>

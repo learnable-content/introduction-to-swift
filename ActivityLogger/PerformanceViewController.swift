@@ -12,20 +12,19 @@ class PerformanceViewController: UIViewController, UITableViewDataSource, UITabl
     
     @IBOutlet var tableView: UITableView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         var act2 = Activity(activityName: "Swimming", totalTime: 20)
         var act3 = Activity(activityName: "Jogging", totalTime: 15)
+        
         ActivityManager.activities.append(act2)
         ActivityManager.activities.append(act3)
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        tableView.reloadData()
-        
+       tableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,6 +41,20 @@ class PerformanceViewController: UIViewController, UITableViewDataSource, UITabl
         var activity = ActivityManager.activities[indexPath.item]
         cell.textLabel!.text = "\(activity.activityName) \(activity.totalTime)"
         return cell
+    }
+    
+    func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        if(ActivityManager.activities.count > 1){
+            return true
+        }
+        return false
+    }
+    
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if(editingStyle == .Delete){
+            ActivityManager.activities.removeAtIndex(indexPath.row)
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+        }
     }
 }
 
