@@ -14,6 +14,7 @@
 		542FF3041B2696F000E59798 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542FF3031B2696F000E59798 /* Images.xcassets */; };
 		542FF3071B2696F000E59798 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542FF3051B2696F000E59798 /* LaunchScreen.xib */; };
 		542FF3131B2696F000E59798 /* ActivityLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542FF3121B2696F000E59798 /* ActivityLoggerTests.swift */; };
+		54632F181B5FDDD30094738D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54632F171B5FDDD30094738D /* AddViewController.swift */; };
 		54C22A091B310DEE00CE42EF /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C22A081B310DEE00CE42EF /* Activity.swift */; };
 		54C22A0B1B310ED600CE42EF /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C22A0A1B310ED600CE42EF /* ActivityManager.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		542FF30C1B2696F000E59798 /* ActivityLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		542FF3111B2696F000E59798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		542FF3121B2696F000E59798 /* ActivityLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLoggerTests.swift; sourceTree = "<group>"; };
+		54632F171B5FDDD30094738D /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		54C22A081B310DEE00CE42EF /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		54C22A0A1B310ED600CE42EF /* ActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				542FF2FA1B2696F000E59798 /* AppDelegate.swift */,
+				54632F171B5FDDD30094738D /* AddViewController.swift */,
 				542FF2FC1B2696F000E59798 /* FirstViewController.swift */,
 				542FF2FE1B2696F000E59798 /* PerformanceViewController.swift */,
 				542FF3001B2696F000E59798 /* Main.storyboard */,
@@ -223,6 +226,7 @@
 			files = (
 				54C22A0B1B310ED600CE42EF /* ActivityManager.swift in Sources */,
 				542FF2FF1B2696F000E59798 /* PerformanceViewController.swift in Sources */,
+				54632F181B5FDDD30094738D /* AddViewController.swift in Sources */,
 				542FF2FB1B2696F000E59798 /* AppDelegate.swift in Sources */,
 				54C22A091B310DEE00CE42EF /* Activity.swift in Sources */,
 				542FF2FD1B2696F000E59798 /* FirstViewController.swift in Sources */,

@@ -1,6 +1,5 @@
-Lesson 4.2 View Activity Totals
+4.4 Error Handling
 
-* Modify the assignment of activity name and time to tableview cells
-* Explanation string concatenation syntax being used
-
-Note to reviewer: This lesson will be shorter than I anticipated.  Much of the model discussion mentioned in the lesson description has already been covered
+* Explanation of error handling in Swift 1.2
+* Identifying areas to apply error handling
+* Demonstrate how to use conditionals for error handling
