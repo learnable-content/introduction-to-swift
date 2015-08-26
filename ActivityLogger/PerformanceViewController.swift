@@ -10,15 +10,22 @@ import UIKit
 
 class PerformanceViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet var tableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        var act1 = Activity(activityName: "Running", totalTime: 10)
         var act2 = Activity(activityName: "Swimming", totalTime: 20)
         var act3 = Activity(activityName: "Jogging", totalTime: 15)
-        ActivityManager.activities.append(act1)
         ActivityManager.activities.append(act2)
         ActivityManager.activities.append(act3)
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        tableView.reloadData()
+        
     }
 
     override func didReceiveMemoryWarning() {
