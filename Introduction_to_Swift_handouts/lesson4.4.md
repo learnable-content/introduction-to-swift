@@ -1,4 +1,4 @@
-![](Introduction_to_Swift_handouts/headings/4.4.png)
+![](headings/4.4.png)
 
 # Error Handling Intro
 
