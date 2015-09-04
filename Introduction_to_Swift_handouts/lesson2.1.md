@@ -1,4 +1,4 @@
-![](Introduction_to_Swift_handouts/headings/2.1.png)
+![](headings/2.1.png)
 
 # Starting the Project
 
