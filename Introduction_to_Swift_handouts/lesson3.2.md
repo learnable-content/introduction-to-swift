@@ -1,4 +1,4 @@
-![](Introduction_to_Swift_handouts/headings/3.2.png)
+![](headings/3.2.png)
 
 # Intro
 
