@@ -1,4 +1,4 @@
-![](Introduction_to_Swift_handouts/headings/2.2.png)
+![](headings/2.2.png)
 
 # Adding UI Elements
 
