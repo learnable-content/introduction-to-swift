@@ -1,4 +1,4 @@
-![](Introduction_to_Swift_handouts/headings/3.1.png)
+![](headings/3.1.png)
 
 # What Is MVC
 
