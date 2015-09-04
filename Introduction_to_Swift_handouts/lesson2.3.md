@@ -1,4 +1,4 @@
-![](Introduction_to_Swift_handouts/headings/2.3.png)
+![](headings/2.3.png)
 
 # Adding the Third Scene
 
